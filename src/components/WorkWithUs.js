@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 const WorkWithUs = () => {
     return (
-        <section className="w-full bg-green-900 p-9  mt-10">
+        <section className="w-full bg-green-900 p-9  mt-10" id="about">
             <Fade left>
                 <h2 className="text-center text-yellow-400 text-3xl">
                 How to Earn with Us

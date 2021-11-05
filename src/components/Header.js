@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 const Header = () => {
     return (
-        <header  className=" header w-full flex items-center justify-between p-9">
+        <header  className=" header w-full flex items-center justify-between p-9" id="home">
 
             <div className="header__text flex flex-col mr-3">
 

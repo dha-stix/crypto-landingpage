@@ -7,7 +7,7 @@ import Rotate from 'react-reveal/Rotate'
 const ChooseUs = () => {
     
     return (
-        <div className="clients w-full py-14 pr-7 pl-7 bg-green-600">
+        <div className="clients w-full py-14 pr-7 pl-7 bg-green-600" id="trade">
             <Fade left>
                 <h2 className="text-yellow-400 text-3xl mb-7 text-center">Why Choose Us?</h2>
             </Fade>

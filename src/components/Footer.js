@@ -7,7 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 const Footer = () => {
     const date = new Date().getFullYear()
     return (
-        <footer className="w-full py-14 pr-7 pl-7 bg-green-900 border-t border-green-700"> 
+        <footer className="w-full py-14 pr-7 pl-7 bg-green-900 border-t border-green-700" id="contact"> 
 
             <div className="footer__container flex justify-between">
                 <div>
