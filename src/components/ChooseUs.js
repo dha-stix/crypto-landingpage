@@ -2,7 +2,6 @@ import React from 'react'
 import array from "../array"
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
-import Rotate from 'react-reveal/Rotate'
 
 const ChooseUs = () => {
     
@@ -15,7 +14,7 @@ const ChooseUs = () => {
             <div className=" w-full beneficiary__lists flex items-center justify-center flex-wrap">
                 {
                     array.map(item => (
-                        <Rotate key={item.name} delay={700}>
+                        <Fade bottom key={item.name} delay={700}>
                             <div className="beneficiary bg-gray-100 cursor-pointer w-1/3 m-3 rounded-lg p-7" >
                                 <div className="w-full flex items-center mb-4">
                                     <img src={item.image_url} alt={item.alt} className="mr-3 h-10"/>
@@ -25,7 +24,7 @@ const ChooseUs = () => {
                                     Crypto makes it safe and easy for you to trade Bitcoin. Find the best offers below and buy Bitcoin using Bank Transfers in just 5 simple steps.
                                 </p>
                             </div>
-                        </Rotate>
+                        </Fade>
                     ))
                 }
                 
