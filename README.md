@@ -1,4 +1,4 @@
-## Live URL:
+## Live URL: https://crypto-landingpage-seven.vercel.app/
 
 - This app whose built with React.js, Tailwind CSS & Vanilla CSS
 
